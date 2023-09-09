@@ -244,7 +244,8 @@ button {
   width: 264px;
   height: 112px;
   border-radius: 4px;
-  background: var(--cloud);;
+  background: var(--cloud);
+  padding: 24px 100px;
 }
 
 .services-list {
@@ -447,19 +448,6 @@ button {
   cursor: pointer;
   border: 1px solid var(--cloud);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-image {
-  display: flex;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-}
-
-.portfolio-image:hover {
-  display: inline-flex;
-background: var(--iris);
 }
 
 .portfolio-card-content {
