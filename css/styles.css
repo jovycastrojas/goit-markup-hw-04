@@ -308,7 +308,6 @@ button {
   }
 
   .team-item-list-image:hover {
-    background: var(--ocean);
     cursor: pointer;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
@@ -339,7 +338,7 @@ button {
   }
 
   .social-links-list-item:hover {
-    background-color: var(--green);
+    background-color: var(--ocean);
   }
 
 /*CLIENTS SECTION*/
@@ -362,6 +361,7 @@ button {
   .client-logo-list:hover {
     border: 1px solid var(--ocean);
     cursor: pointer;
+    color: var(--ocean);
   }
 
 
@@ -373,13 +373,14 @@ button {
     height: 88px;
     border-radius: 4px;
     border: 1px solid var(--lightslate);
+    color: var(--lightslate);
   }
 
-   .client-logo-links {
+  .client-logo-links {
     display: inline-flex;
     width: 104px;
     height: 56px;
-    fill: var(--lightslate);
+    fill: currentColor;
    }
 
    .client-logo-links:hover {
@@ -445,7 +446,6 @@ button {
 }
 
 .portfolio-item-image:hover {
-  cursor: pointer;
   border: 1px solid var(--cloud);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
@@ -459,9 +459,12 @@ align-items: flex-start;
 gap: 8px;
 align-self: stretch;
 border: 1px solid var(--cornflower);
+border-top: unset;
 }
 
-
+.portfolio-card-content, .portfolio-item-image:hover {
+  border: unset;
+}
 /* FOOTER SECTION */
 
 .footer {
