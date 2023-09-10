@@ -520,3 +520,18 @@ border-top: unset;
     flex-direction: row;
     gap: 120px;
   }
+
+
+  .footer-social-links-list-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--iris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-social-links-list-item:hover {
+    background-color: var(--green);
+  }
